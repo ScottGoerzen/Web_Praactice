@@ -1,0 +1,72 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    background-image: url("imgs/bkg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+
+  }
+
+body#flowers {
+  background-image: url("imgs/bkg1.jpg");
+}
+
+body#georgia {
+  background-image: url("imgs/bkg2.jpg");
+}
+
+body#sunsets {
+  background-image: url("imgs/bkg4.jpg");
+}
+
+a {
+  cursor: hand;
+}
+
+#header {
+  width: 400px;
+  margin: 10px auto;
+}
+
+ul.nav {
+  width: 550px;
+  margin: 0px auto;
+  padding: 10px 25px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+}
+
+li.nav {
+  display: inline;
+  margin: 0px 50px;
+}
+
+h3 {
+  color: green;
+}
+
+#all {
+  border-radius: 100px;
+  width: 750px;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  background-color: rgba(200,200,200,.9);
+  text-align: center;
+}
+
+#images {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 10px auto;
+  text-align: center;
+
+}
+
+
+#credits {
+  font-size: 75%;
+  font-style: italic;
+}
